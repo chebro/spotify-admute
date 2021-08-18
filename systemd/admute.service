@@ -1,0 +1,10 @@
+[Unit]
+Description=Admute Service
+
+[Service]
+Type=simple
+ExecStart=%h/.scripts/admute
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

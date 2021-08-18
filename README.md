@@ -2,7 +2,7 @@
 
 ## Todo
 
-- [ ] write systemd service file
+- [x] write systemd service file
 - [ ] finish README
 - [ ] measure performace
 
