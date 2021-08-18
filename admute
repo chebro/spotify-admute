@@ -1,8 +1,8 @@
 #!/bin/bash
 
 playerctl metadata -s -Ff "{{ title }}" 2> /dev/null |
-	while read -r SONG; do
-		if [[ "$SONG" = "Advertisement" ]]; then
+	while read -r TITLE; do
+		if [[ "$TITLE" = "Advertisement" ]]; then
 			pactl set-sink-mute @DEFAULT_SINK@ true
 		else
 			pactl set-sink-mute @DEFAULT_SINK@ false
