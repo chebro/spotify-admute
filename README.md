@@ -22,6 +22,12 @@ systemctl --user start admute.service
 systemctl --user enable admute.service
 ```
 
+If you're on i3wm, it is easier to just append this to your config,
+
+```bash
+exec --no-startup-id /path/to/script
+```
+
 ## Todo
 
 - [x] write systemd service file
