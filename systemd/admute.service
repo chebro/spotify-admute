@@ -5,6 +5,7 @@ Description=Admute Service
 Type=simple
 ExecStart=%h/.scripts/admute
 Restart=on-failure
+LogLevelMax=alert
 
 [Install]
 WantedBy=multi-user.target
