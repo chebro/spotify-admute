@@ -9,7 +9,10 @@ Hate spotify ads? this script may help you.
 
 ## Run as daemon
 
-If you are running systemd, copy `systemd/admute.service` to `$HOME/.config/user/systemd/` then
+If you are running systemd, 
+
+1. copy `systemd/admute.service` to `$HOME/.config/user/systemd/`
+2. edit the `ExecStart` path to `%h/path/to/script` (`%h` expands to `$HOME`), then
 
 ```bash
 # start service
