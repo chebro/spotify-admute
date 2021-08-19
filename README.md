@@ -2,6 +2,8 @@
 
 Hate spotify ads? this script may help you.
 
+A lightweight bash daemon that monitors the dbus for change in mpris title metadata and mutes/unmutes the default pulseaudio sink depending on whether or not it is an advert.
+
 ## Dependencies
 
 - [pactl](https://man.archlinux.org/man/pactl.1.en)
